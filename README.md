@@ -89,9 +89,9 @@ A responsive website clone built using HTML and CSS.
 
 ## 🤝 Connect with Me
 
-💼 LinkedIn: *(Add your public LinkedIn profile URL)*
+💼 LinkedIn: *(https://www.linkedin.com/feed/)*
 
-📧 Email: *(Add your email if you want to share it)*
+📧 Email: *(funnyrajpoot9@gmail.com)*
 
 ---
 
