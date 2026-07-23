@@ -74,10 +74,24 @@ header{
 }
 
 header h1{
-    font-size:4rem;
-    background:linear-gradient(90deg,#38bdf8,#a855f7,#ec4899);
-    -webkit-background-clip:text;
-    -webkit-text-fill-color:transparent;
+
+font-size:4rem;
+
+animation:floatText 3s ease-in-out infinite alternate;
+
+}
+
+
+@keyframes floatText{
+
+from{
+transform:translateY(0px);
+}
+
+to{
+transform:translateY(-15px);
+}
+
 }
 
 header p{
@@ -138,12 +152,39 @@ h2::after{
 }
 
 .card{
-    background:rgba(255,255,255,.08);
-    backdrop-filter:blur(20px);
-    border:1px solid rgba(255,255,255,.15);
-    border-radius:20px;
-    padding:25px;
-    transition:.4s;
+
+background:rgba(255,255,255,0.08);
+
+backdrop-filter:blur(20px);
+
+border:1px solid rgba(255,255,255,0.2);
+
+border-radius:25px;
+
+padding:30px;
+
+transition:.5s;
+
+transform-style:preserve-3d;
+
+box-shadow:
+0 20px 40px rgba(0,0,0,.3);
+
+}
+
+
+.card:hover{
+
+transform:
+perspective(1000px)
+rotateX(10deg)
+rotateY(-10deg)
+translateY(-20px);
+
+
+box-shadow:
+0 40px 80px rgba(56,189,248,.35);
+
 }
 
 .card:hover{
@@ -251,17 +292,11 @@ bottom:80px;
 
 
 .blob3{
-
-width:180px;
-
-height:180px;
-
-background:#ec4899;
-
-top:50%;
-
-left:45%;
-
+    width:200px;
+    height:200px;
+    background:#6366f1;
+    top:50%;
+    left:45%;
 }
 
 
