@@ -22,10 +22,41 @@
 }
 
 body{
-    background:linear-gradient(135deg,#0f172a,#1e1b4b,#312e81);
+
+    background:
+    linear-gradient(-45deg,
+    #0f172a,
+    #312e81,
+    #4c1d95,
+    #0f172a);
+
+    background-size:400% 400%;
+
+    animation:gradientMove 12s ease infinite;
+
     color:#f8fafc;
+
     line-height:1.7;
+
+    overflow-x:hidden;
 }
+
+
+@keyframes gradientMove{
+
+0%{
+    background-position:0% 50%;
+}
+
+50%{
+    background-position:100% 50%;
+}
+
+100%{
+    background-position:0% 50%;
+}
+
+}  
 
 .container{
     width:90%;
@@ -169,11 +200,101 @@ footer{
     color:#cbd5e1;
 }
 
+
+    /* 3D Floating Blobs */
+
+.blob{
+
+position:fixed;
+
+border-radius:50%;
+
+filter:blur(70px);
+
+opacity:.4;
+
+z-index:-1;
+
+animation:float 8s infinite alternate;
+
+}
+
+
+.blob1{
+
+width:250px;
+
+height:250px;
+
+background:#a855f7;
+
+top:50px;
+
+left:-80px;
+
+}
+
+
+.blob2{
+
+width:300px;
+
+height:300px;
+
+background:#06b6d4;
+
+right:-100px;
+
+bottom:80px;
+
+}
+
+
+.blob3{
+
+width:180px;
+
+height:180px;
+
+background:#ec4899;
+
+top:50%;
+
+left:45%;
+
+}
+
+
+@keyframes float{
+
+from{
+
+transform:translateY(0px);
+
+}
+
+to{
+
+transform:translateY(-50px);
+
+}
+
+}
+
 </style>
+
+    
 
 </head>
 
 <body>
+    <body>
+
+<div class="blob blob1"></div>
+<div class="blob blob2"></div>
+<div class="blob blob3"></div>
+
+<div class="container">
 
 <div class="container">
 
