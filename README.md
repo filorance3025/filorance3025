@@ -1,34 +1,33 @@
-# Hi there, I'm Filorance! 👋
+# Hi, I'm Filorance 👋
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?lines=Computer+Science+Student;Java+Developer;DSA+Enthusiast;Web+Development+Learner;Future+Software+Engineer&center=true&width=500&height=45">
-</p>
+### 💻 Computer Science Student | Java Developer | DSA Enthusiast | Web Development Learner
 
-## 🚀 About Me
+I'm a passionate Computer Science student who enjoys solving problems, building projects, and continuously learning new technologies. I believe in learning through consistency and hands-on experience.
 
-🎓 B.Tech Computer Science & Engineering Student
+🌱 **Currently Exploring**
+- Data Structures & Algorithms (Java)
+- JavaScript
+- Web Development
+- Problem Solving
 
-💻 Passionate about Data Structures & Algorithms and Problem Solving
-
-🌱 Currently learning **JavaScript**, **Web Development**, and **Advanced DSA**
-
-🎯 Aspiring Software Engineer with the goal of securing a **Microsoft Internship**
-
-✨ I love building projects, learning new technologies, and continuously improving my skills.
+🎯 **Career Goal**
+To become a Software Engineer and secure a Software Engineering Internship at **Microsoft**.
 
 ---
 
-## 🛠️ Tech Stack
+## 🚀 Tech Stack
 
-### Languages
-- Java
-- C++
-- Python
-- JavaScript
-- HTML
-- CSS
+### Programming Languages
+- ☕ Java
+- 💙 C++
+- 🐍 Python
+- 🟨 JavaScript
 
-### Tools & Technologies
+### Frontend
+- HTML5
+- CSS3
+
+### Tools & Platforms
 - Git
 - GitHub
 - VS Code
@@ -36,67 +35,54 @@
 
 ---
 
-## 📚 Currently Learning
+## 📂 Projects
 
-- Data Structures & Algorithms
-- JavaScript
-- Web Development
-- Problem Solving
+### 🎬 Movie Recommendation System
+A recommendation system that suggests movies based on user preferences.
+
+### 📞 Call Management System
+A mini project for managing and organizing call records efficiently.
+
+### 🌐 Website Clone
+A responsive website clone developed using HTML and CSS.
 
 ---
 
 ## 🌐 Coding Profiles
 
-💻 **LeetCode**  
-https://leetcode.com/u/filorance/
-
-🏆 **CodeChef**  
-https://www.codechef.com/users/filorance_30
-
-⭐ **HackerRank**  
-https://www.hackerrank.com/profile/funnyrajpoot9
-
-💼 **LinkedIn**  
-(Add your public LinkedIn profile link here)
+- 💻 **LeetCode:** https://leetcode.com/u/filorance/
+- 🏆 **CodeChef:** https://www.codechef.com/users/filorance_30
+- ⭐ **HackerRank:** https://www.hackerrank.com/profile/funnyrajpoot9
+- 💼 **LinkedIn:** *(Add your public LinkedIn profile URL here)*
 
 ---
 
-## 📂 Featured Projects
-
-### 🎬 Movie Recommendation System
-A movie recommendation system that suggests movies based on user preferences.
-
-### 📞 Call Management System
-A mini project designed to efficiently manage and organize call records.
-
-### 🌐 Website Clone
-A responsive website clone built using HTML and CSS.
-
----
-
-## 📊 GitHub Stats
+## 📊 GitHub Statistics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight" height="170" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight" height="165"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight" height="165"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight"/>
 </p>
 
 ---
 
-## 🤝 Connect with Me
+## 🤝 Let's Connect
 
-💼 LinkedIn: *(https://www.linkedin.com/feed/)*
+📧 **Email:** your-email@example.com
 
-📧 Email: *(funnyrajpoot9@gmail.com)*
+💼 **LinkedIn:** Add your public LinkedIn profile link
 
 ---
 
-## 💡 Motto
+## 💭 Quote
 
-> **"Consistency is the key to success. Every line of code brings me one step closer to my goals."**
+> **"The expert in anything was once a beginner who never stopped learning."**
 
-⭐ Thanks for visiting my GitHub profile! Happy Coding! 🚀
+---
+
+⭐ **Thank you for visiting my GitHub profile!**  
+If you like my work, feel free to ⭐ my repositories and connect with me.
