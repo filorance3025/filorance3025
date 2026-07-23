@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Filorance | Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <style>
-       *{
+<title>Filorance | Portfolio</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
     margin:0;
     padding:0;
     box-sizing:border-box;
     font-family:'Poppins',sans-serif;
+    scroll-behavior:smooth;
 }
 
 body{
@@ -26,44 +34,70 @@ body{
 }
 
 header{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
     text-align:center;
-    padding:80px 20px;
 }
 
 header h1{
-    font-size:3.5rem;
-    font-weight:700;
+    font-size:4rem;
     background:linear-gradient(90deg,#38bdf8,#a855f7,#ec4899);
     -webkit-background-clip:text;
     -webkit-text-fill-color:transparent;
 }
 
 header p{
-    margin-top:15px;
-    color:#cbd5e1;
+    margin:20px 0;
+    color:#d1d5db;
     font-size:1.2rem;
 }
 
+.btn{
+    display:inline-block;
+    padding:15px 35px;
+    border-radius:40px;
+    background:linear-gradient(90deg,#38bdf8,#a855f7);
+    color:white;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:scale(1.08);
+    box-shadow:0 15px 30px rgba(168,85,247,.4);
+}
+
 section{
-    margin:60px 0;
+    margin:80px 0;
 }
 
 h2{
     font-size:2rem;
-    margin-bottom:25px;
     color:#38bdf8;
+    margin-bottom:30px;
     position:relative;
 }
 
 h2::after{
     content:"";
-    width:70px;
-    height:4px;
-    background:#a855f7;
     position:absolute;
     left:0;
     bottom:-10px;
-    border-radius:10px;
+    width:70px;
+    height:4px;
+    background:#a855f7;
+    border-radius:20px;
+}
+
+.about{
+    background:rgba(255,255,255,.08);
+    backdrop-filter:blur(18px);
+    padding:30px;
+    border-radius:20px;
 }
 
 .cards{
@@ -74,7 +108,7 @@ h2::after{
 
 .card{
     background:rgba(255,255,255,.08);
-    backdrop-filter:blur(18px);
+    backdrop-filter:blur(20px);
     border:1px solid rgba(255,255,255,.15);
     border-radius:20px;
     padding:25px;
@@ -82,7 +116,7 @@ h2::after{
 }
 
 .card:hover{
-    transform:translateY(-10px) scale(1.02);
+    transform:translateY(-10px);
     box-shadow:0 20px 40px rgba(168,85,247,.35);
 }
 
@@ -100,69 +134,89 @@ ul li{
 }
 
 ul li::before{
-    content:"▹ ";
+    content:"✔ ";
     color:#38bdf8;
-    font-weight:bold;
 }
 
-a{
+.profile-links a{
+    display:block;
+    margin:15px 0;
     color:#7dd3fc;
     text-decoration:none;
     transition:.3s;
 }
 
-a:hover{
+.profile-links a:hover{
     color:#f472b6;
+    transform:translateX(8px);
 }
 
 .quote{
     background:rgba(255,255,255,.08);
     border-left:5px solid #a855f7;
     padding:25px;
-    margin:50px 0;
     border-radius:15px;
     text-align:center;
-    font-size:1.2rem;
     font-style:italic;
+    font-size:1.2rem;
 }
 
 footer{
     text-align:center;
-    padding:30px;
-    color:#cbd5e1;
-    border-top:1px solid rgba(255,255,255,.1);
+    padding:40px;
     margin-top:60px;
-}}
-    </style>
+    border-top:1px solid rgba(255,255,255,.15);
+    color:#cbd5e1;
+}
+
+</style>
+
 </head>
+
 <body>
 
 <div class="container">
 
 <header>
 
-<h1>Hi there, I'm Filorance 👋</h1>
+<h1>Hi, I'm Filorance 👋</h1>
 
 <p>
 Computer Science Student • Java Developer • DSA Enthusiast •
 Web Development Learner • Future Software Engineer
 </p>
 
+<a href="#about" class="btn">
+Explore My Portfolio
+</a>
+
 </header>
 
-<section>
+<section id="about">
 
 <h2>🚀 About Me</h2>
 
+<div class="about">
+
 <p>🎓 B.Tech Computer Science & Engineering Student</p>
+
+<br>
 
 <p>💻 Passionate about Data Structures & Algorithms and Problem Solving.</p>
 
+<br>
+
 <p>🌱 Currently learning JavaScript, Web Development and Advanced DSA.</p>
+
+<br>
 
 <p>🎯 Aspiring Software Engineer with the goal of securing a Microsoft Internship.</p>
 
+<br>
+
 <p>✨ I enjoy building projects, learning new technologies and continuously improving my skills.</p>
+
+</div>
 
 </section>
 
@@ -173,7 +227,8 @@ Web Development Learner • Future Software Engineer
 <div class="cards">
 
 <div class="card">
-<h3>Languages</h3>
+
+<h3>Programming Languages</h3>
 
 <ul>
 <li>Java</li>
@@ -188,7 +243,7 @@ Web Development Learner • Future Software Engineer
 
 <div class="card">
 
-<h3>Tools</h3>
+<h3>Tools & Technologies</h3>
 
 <ul>
 <li>Git</li>
@@ -199,54 +254,20 @@ Web Development Learner • Future Software Engineer
 
 </div>
 
-</div>
+<div class="card">
 
-</section>
-
-<section>
-
-<h2>📚 Currently Learning</h2>
+<h3>Currently Learning</h3>
 
 <ul>
-<li>Data Structures & Algorithms</li>
+<li>Advanced DSA</li>
 <li>JavaScript</li>
 <li>Web Development</li>
 <li>Problem Solving</li>
 </ul>
 
-</section>
+</div>
 
-<section>
-
-<h2>🌐 Coding Profiles</h2>
-
-<ul>
-
-<li>
-<a href="https://leetcode.com/u/filorance/" target="_blank">
-LeetCode
-</a>
-</li>
-
-<li>
-<a href="https://www.codechef.com/users/filorance_30" target="_blank">
-CodeChef
-</a>
-</li>
-
-<li>
-<a href="https://www.hackerrank.com/profile/funnyrajpoot9" target="_blank">
-HackerRank
-</a>
-</li>
-
-<li>
-<a href="#" target="_blank">
-LinkedIn
-</a>
-</li>
-
-</ul>
+</div>
 
 </section>
 
@@ -257,6 +278,7 @@ LinkedIn
 <div class="cards">
 
 <div class="card">
+
 <h3>🎬 Movie Recommendation System</h3>
 
 <p>
@@ -266,6 +288,7 @@ A recommendation system that suggests movies based on user preferences.
 </div>
 
 <div class="card">
+
 <h3>📞 Call Management System</h3>
 
 <p>
@@ -275,6 +298,7 @@ A mini project designed to efficiently manage and organize call records.
 </div>
 
 <div class="card">
+
 <h3>🌐 Website Clone</h3>
 
 <p>
@@ -289,13 +313,33 @@ A responsive website clone built using HTML and CSS.
 
 <section>
 
-<h2>🤝 Connect With Me</h2>
+<h2>🌐 Coding Profiles</h2>
 
-<p>📧 your-email@example.com</p>
+<div class="profile-links">
 
-<p>💼 <a href="#">LinkedIn Profile</a></p>
+<a href="https://leetcode.com/u/filorance/" target="_blank">
+💻 LeetCode
+</a>
+
+<a href="https://www.codechef.com/users/filorance_30" target="_blank">
+🏆 CodeChef
+</a>
+
+<a href="https://www.hackerrank.com/profile/funnyrajpoot9" target="_blank">
+⭐ HackerRank
+</a>
+
+<a href="#" target="_blank">
+💼 LinkedIn
+</a>
+
+</div>
 
 </section>
+
+<section>
+
+<h2>💡 Motto</h2>
 
 <div class="quote">
 
@@ -303,9 +347,17 @@ A responsive website clone built using HTML and CSS.
 
 </div>
 
+</section>
+
 <footer>
 
-⭐ Thanks for visiting my portfolio! Happy Coding 🚀
+<h3>Let's Connect 🤝</h3>
+
+<p>Email: your-email@example.com</p>
+
+<br>
+
+<p>⭐ Thank you for visiting my portfolio. Happy Coding! 🚀</p>
 
 </footer>
 
