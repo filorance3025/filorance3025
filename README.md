@@ -57,7 +57,7 @@ https://www.codechef.com/users/filorance_30
 https://www.hackerrank.com/profile/funnyrajpoot9
 
 💼 **LinkedIn**  
-(Add your public LinkedIn profile link here)
+(https://www.linkedin.com/feed/)
 
 ---
 
