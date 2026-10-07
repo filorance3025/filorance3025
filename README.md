@@ -12,8 +12,6 @@
 
 🌱 Currently learning **JavaScript**, **Web Development**, and **Advanced DSA**
 
-🎯 Aspiring Software Engineer with the goal of securing a **Microsoft Internship**
-
 ✨ I love building projects, learning new technologies, and continuously improving my skills.
 
 ---
